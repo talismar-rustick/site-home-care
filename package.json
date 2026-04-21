@@ -3,9 +3,10 @@
     "version": "1.0.0",
     "description": "A landing page made with Tailwindcss",
     "scripts": {
-        "tailwind:watch": "npx tailwindcss -i ./src/input.css -o ./build/assets/css/output.css --watch"
-    },
-    "author": "Gustavo Martins Pereira",
+  "tailwind:watch": "npx tailwindcss -i ./src/input.css -o ./build/assets/css/output.css --watch",
+  "build": "npx tailwindcss -i ./src/input.css -o ./build/assets/css/output.css"
+}
+    "author": "Talismar Rustick",
     "license": "UNLICENSED",
     "devDependencies": {
         "tailwindcss": "^3.4.3"
